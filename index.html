@@ -1,14 +1,64 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset=“utf-8”>
-	<meta http-equiv=“X-UA-Compatible” content=“IE=edge”>
-	<title>Give Me A Title!</title>
-	<meta name=“viewport” content=“width-device-width, initial-scale=1”>
-	<link rel=“stylesheet” type=“text/css” href=“style.css”>
-	<link rel=“icon” href=“cool_icon.png”>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Xinyu Fu</title>                           <!-- Give Title -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
-	<p> My first website! </p>
+
+	<style type="text/css">
+		
+		body {
+			margin: 0;
+		}
+
+		/* NAV BAR */
+
+		.nav-bar {
+			width: 100%;
+			height: 50px;
+			margin: 0;
+			background: black;
+			position: sticky;
+			top: 0;
+		}
+
+		.nav-bar > .element {
+			width: 24%;
+			line-height: 50px;
+			text-align: center;
+			color: white;
+			display: inline-block;
+			margin: 0;
+			font-family: Arial;
+			text-decoration: none;
+		}
+
+		.nav-bar > .element:hover { 
+  			text-decoration: underline;
+		}	
+
+
+		/* BODY */
+
+		.content {
+			width: 80%;
+			margin-left: 10%;
+		}
+
+	</style>
+
+    <div class=nav-bar>
+    	<a href='nav_bar.html' class=element> Home </a>
+    	<a href='nav_bar.html' class=element> Publications </a>
+    	<a href='nav_bar.html' class=element> Teaching </a>
+    	<a href='nav_bar.html' class=element> Resources </a>
+    </div>
+
+    <div class=content>
+	</div>
+
 </body>
 </html>
